@@ -1,0 +1,131 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+	margin: 0;
+  background-color: #151f2b;
+}
+
+.mainLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 28vw;
+}
+
+.logo {
+  height: 60px;
+  margin-left: 50px;
+  margin-top: 1vh;
+  cursor: pointer;
+}
+
+.mainCenter {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 44vw;
+  border: 1px solid #2e4663;
+}
+
+.mainTitle {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.mainRight {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 28vw;
+}
+
+.mainTitles {
+  color: white;
+  margin-top: 1vh;
+  margin-left: 1vw;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.tweetInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #23354a;
+  height: 25%;
+}
+
+.tweetInputField {
+  background-color: #151f2b;
+  border-bottom: 2px solid #768494;
+  border: 1px solid #151f2b;
+  width: 35vw;
+  height: 8vh;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: rgb(215, 212, 221);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+}
+
+.tweetInputField:focus {
+  outline-color: #151f2b;
+  outline: none;
+}
+
+.secondaryTitles {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.terciaryTitles {
+  color: white;
+  font-weight: 400;
+  font-size: 16px
+}
+
+.tweetButtonAndCounterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 35vw;
+  height: 25px;
+}
+
+.counter {
+  margin-right: 10px;
+}
+
+.tweetButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #3483cd;
+  background-color: #3483cd;
+  border-radius: 25px;
+  width: 100px;
+  height: 25px;
+}
+
+.tweetButton:hover {
+  background-color: #57a4ec;
+  cursor: pointer;
+}
+
+.lastTweets {
+  display: flex;
+  border: 1px solid #23354a;
+  height: 75%;
+}
+
+.btnLogout{
+  background-color: transparent;
+  color: white;
+}

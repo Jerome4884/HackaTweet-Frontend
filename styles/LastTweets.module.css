@@ -1,0 +1,7 @@
+.lastTweets {
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: auto;
+    height: 100%;
+    overflow: scroll;
+}
